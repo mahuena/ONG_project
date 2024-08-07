@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rounded-bullet::before {
+    content: '';
+    display: inline-block;
+    margin-right: 0.5rem;
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: #facc15;
+    border-radius: 9999px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+
+.custom-button {
+    color: #fff;
+    background-color: #facc15;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    white-space: nowrap;
+}
+
+.custom-button:hover,
+.custom-button:focus,
+.custom-button:active {
+   opacity: 0.8;
+}
