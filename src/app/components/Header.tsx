@@ -36,7 +36,7 @@ export const Header = () => {
     ];
 
     return (
-        <div className='p-3 lg:p-4 flex flex-col items-center w-full'>
+        <div className='p-3 lg:p-3 flex flex-col items-center w-full'>
             <header className="text-black flex justify-between items-center max-w-7xl w-full">
                 <Link to="/" className="text-4xl font-bold flex items-center mb-3 mr-8">Logo</Link>
 
@@ -49,7 +49,7 @@ export const Header = () => {
 
                 <Menu
                     mode="horizontal"
-                    className="border-none w-full hidden lg:flex justify-center gap-6"
+                    className="border-none w-full hidden lg:flex justify-center gap-5"
                     items={menuItems}
                 />
 

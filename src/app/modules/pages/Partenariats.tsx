@@ -1,7 +1,7 @@
-export const Partenariats = () => {
+import React from "react";
+
+export const Partenariats: React.FC = () => {
     return (
-        <>
-            <h1 className="text-3xl p-8 text-center">Partenariats</h1>
-        </>
-    );
+        <h1>Partners</h1>
+    )
 };

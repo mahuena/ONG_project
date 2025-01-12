@@ -24,7 +24,7 @@ export const InfoWrapper = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-row gap-2 lg:gap-4 justify-end'>
+                    <div className='flex flex-row gap-1 justify-end'>
                         <motion.a href='https://www.instagram.com' target='_blank' rel='noopener noreferrer'
                                   className="p-2 rounded-full bg-transparent hover:bg-yellow-300 flex items-center justify-center social-icon"
                                   whileHover={{y: -10}}>
